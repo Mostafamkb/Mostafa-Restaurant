@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  background-color: #000000;
+  color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.table-c {
+  font-family: "Times New Roman", serif;
+  background-color: white;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 20px;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #000;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.table-title {
+  font-size: 2.8rem;
+  color: #c8b560;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.luxury-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.luxury-table th,
+.luxury-table td {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.luxury-table thead {
+  background-color: #c8b560;
+}
+
+.luxury-table th {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.luxury-table tbody tr {
+  border-bottom: 1px solid #c8b560;
+}
+
+.luxury-table tbody tr:nth-child(even),
+.luxury-table tbody tr:nth-child(odd) {
+  background-color: #000000;
+}
+
+.luxury-table td {
+  color: #ffffff;
+}
+
+.luxury-table tbody tr td:first-child {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.meal-time {
+  font-size: 2rem;
+  margin: 30px 0 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Cinzel", serif;
+}
+
+.luxury-table td .price {
+  color: #c8b560;
+  font-weight: bold;
+}
